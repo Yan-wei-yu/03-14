@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>基本資料</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+  
+    <nav class="navbar navbar-dark bg-primary">
+      <a class="navbar-brand" href="#">列表</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">首頁 <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.boca.gov.tw/sp-natr-singleform-1.html">中英對照姓名</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              客服中心
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">0800-#####-####</a>
+              <a class="dropdown-item" href="#">e-mail</a>
+            </div>
+          </li>
+    </nav>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">個人資料和信箱</h1>
+        <p class="lead"></p>
+      </div>
+      <form>
+        <div class="form-row">
+        </div>
+        <div class="form-group">
+          <div class="row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="姓氏">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="名字">
+            </div>
+          </div>
+          <label for="inputAddress">戶籍地址</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="">
+        </div>
+        <div class="form-group">
+          <label for="inputAddress2">通訊地址</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="">
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-4">
+            <label for="inputCity">城市</label>
+            <select id="inputState" class="form-control">
+              <option selected>選擇</option>
+              <option>沒得選哩~</option>
+            </select>
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputState">鄉/鎮</label>
+            <select id="inputState" class="form-control">
+              <option selected>選擇</option>
+              <option>沒得選哩~</option>
+            </select>
+          </div>
+          <div class="form-group col-md-2">
+            <label for="inputZip">郵遞區號</label>
+            <input type="text" class="form-control" id="inputZip">
+          </div>
+        </div>
+        <label for="inputAddress">電話/手機</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="">
+      </div>
+      </form>
+      <form>
+        <div class="form-group">
+          <label for="exampleFormControlFile1">上傳你的證照/身分證</label>
+          <input type="file" class="form-control-file" id="exampleFormControlFile1">
+        </div>
+      </form>
+      <h5>性別</h5>
+      <div class="form-check">
+        <input class="form-check-input position-static" type="radio" name="blankRadio" id="blankRadio1" value="option1" aria-label="...">男性
+      </div>
+      <div class="form-check">
+        <input class="form-check-input position-static" type="radio" name="blankRadio" id="blankRadio1" value="option1" aria-label="...">女性
+      </div>
+      <div class="form-check">
+        <input class="form-check-input position-static" type="radio" name="blankRadio" id="blankRadio1" value="option1" aria-label="...">其他
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">電子郵件</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">密碼</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+      </div>
+      <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">記住</label>
+      </div>
+      <button type="submit" class="btn btn-primary">確定</button>
+    </form>
+    <form>
+      <div class="form-group">
+        <label for="formControlRange">網頁的滿意</label>
+        <input type="range" class="form-control-range" id="formControlRange">
+      </div>
+    </form>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
